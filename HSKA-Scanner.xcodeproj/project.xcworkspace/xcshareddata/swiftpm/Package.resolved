@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Bejuslib",
+        "repositoryURL": "https://github.com/jufabeck2202/Bejuslib",
+        "state": {
+          "branch": "master",
+          "revision": "9928bf073e7bf1974b34751901f9907935988fbf",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
