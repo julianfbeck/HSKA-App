@@ -47,13 +47,13 @@ struct GradesWidgetContentView: View {
                     Spacer()
                     
                     VStack(alignment: .leading, spacing: 4) {
-//                        if (grade.grade != 0) {
-//                            
-//                            HStack(alignment: .firstTextBaseline ) {
-//                                Text("Grade ").font(.headline).foregroundColor(Color(UIColor.secondaryLabel))
-//                                Text("\(grade.wrappedGrade)").font(.system(.title, design: .rounded)).fontWeight(.bold)
-//                            }
-//                        }
+                        if (grade.grade != 0) {
+                            
+                            HStack(alignment: .firstTextBaseline ) {
+                                Text("Grade ").font(.headline).foregroundColor(Color(UIColor.secondaryLabel))
+                                Text("\(grade.wrappedGrade)").font(.system(.title, design: .rounded)).fontWeight(.bold)
+                            }
+                        }
                         if (grade.status == "bestanden"){
                             HStack(spacing: 10) {
                                 Image(systemName: "checkmark.circle")
