@@ -10,7 +10,7 @@ import Foundation
 // MARK: - BlackBoardMessage
 public struct BlackBoardMessage: Codable, Identifiable {
     let title, subTitle: String
-    let courseOfStudies: [CourseOfStudy]
+    let courseOfStudies: [CourseOfStudy]?
     let publicationDate, expirationDate: String
     let content: String
     let links: JSONNull?
