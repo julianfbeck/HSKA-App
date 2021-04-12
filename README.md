@@ -10,9 +10,6 @@ Get the latest information right on your Homescreen:
 * Bulletin Board Information
 * Events and important dates
 
-## Version 2.0:
-- [ ] Add Email Support
-- [ ] Add Email Widget
 
 It also supports App-Clips. Simple scan the Bar Code to install the clip: 
 
