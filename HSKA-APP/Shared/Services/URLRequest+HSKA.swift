@@ -7,7 +7,7 @@
 
 import Foundation
 extension URLRequest {
-    private static var baseURL: String { "https://www.iwi.hs-karlsruhe.de/iwii/" }
+    private static var baseURL: String { "https://www.iwi.hs-karlsruhe.de/iwii" }
 
     public static var bulletinBoardStatus: URLRequest {
         .init(endpoint: "REST", "newsbulletinboard")
@@ -32,7 +32,6 @@ extension URLRequest {
             preconditionFailure("Expected a valid URL")
         }
         self.init(url: url)
-        
         if let accessToken = accessToken {
             self.setValue("Basic " + accessToken, forHTTPHeaderField: "Authorization")
         }
