@@ -49,6 +49,6 @@ struct BulletBoardTabView: View {
 
 struct BulletBoardView_Previews: PreviewProvider {
     static var previews: some View {
-        BulletBoardTabView()
+        BulletBoardTabView().environment(\.colorScheme, .dark)
     }
 }

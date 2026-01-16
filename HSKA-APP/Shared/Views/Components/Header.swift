@@ -17,7 +17,9 @@ struct Header<Content>: View where Content: View {
     
     var InfoButton: some View {
         NavigationLink(destination: InfoScreen()) {
-            Image(systemName: "info.circle").customIcon()
+            Image(systemName: "info.circle").customIcon().onAppear(perform: {
+                print("")
+            })
         }
     }
     

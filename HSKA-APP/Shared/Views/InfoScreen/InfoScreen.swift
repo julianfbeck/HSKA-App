@@ -50,6 +50,20 @@ struct InfoScreen: View {
     }
 }
 
+struct InfoScreen_Previews: PreviewProvider {
+    static var previews: some View {
+        Group {
+            InfoScreen()
+                .environment(\.colorScheme, .dark)
+            InfoScreen()
+                .environment(\.colorScheme, .light)
+        }
+        
+    }
+}
+
+
+
 
 extension URL {
     private static let iOSID = "id1524307153"
